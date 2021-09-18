@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 
 export default function App() {
+
+	const BaseUrl = `https://opentdb.com/api.php?amount=10&difficulty=hard&type=boolean`
+
 	const questions = [
 		{
 			questionText: 'What is the capital of France?',
